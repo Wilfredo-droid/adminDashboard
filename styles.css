@@ -51,3 +51,18 @@ body{
     background-color: white;
 }
 
+.mainContent{
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.mainContent .projects{
+    flex: 3;
+    background-color: white;
+}
+
+.mainContent .news{
+    flex: 1;
+    background-color: white;
+}
