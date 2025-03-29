@@ -51,6 +51,8 @@ body{
     background-color: white;
 }
 
+/* Change mainContent display to grid */
+
 .mainContent{
     display: flex;
     gap: 20px;
