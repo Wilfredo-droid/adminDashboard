@@ -57,7 +57,8 @@ body{
 
     display: grid;
     grid-template-columns: 4fr 1fr;
-    grid-template-rows: 20% 1fr;
+    grid-template-rows: 10% 1fr;
+    padding: 20px 10px;
 }
 
 .projects{
@@ -77,12 +78,14 @@ body{
 .projectsTitle{
     grid-row-start: 1;
     grid-column-start: 1;
-    background-color: lightgrey;
 }
 
 .newsTitle{
     grid-row-start: 1;
     grid-column-start: 2;
-    background-color: lightgrey;
+}
+
+.mainContent > h2{
+    margin: 0;
 }
 
