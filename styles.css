@@ -179,4 +179,17 @@ body{
     justify-content: space-between;
 }
 
+.profileOptions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialOptions span{
+    margin: 0px 20px;
+}
+
+
+
+
+
 
