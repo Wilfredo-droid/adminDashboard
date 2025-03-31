@@ -164,11 +164,19 @@ body{
 .searchBar{
     background-color: #E2E8F0;
     height: 30px;
-    width: 50%;
+    width: 85%;
     border-radius: 30px;
     appearance: none;
     border-style: none;
 }
 
+.search{
+    width: 70%;
+}
+
+.miscHeaderOptions{
+    display: flex;
+    justify-content: space-between;
+}
 
 
