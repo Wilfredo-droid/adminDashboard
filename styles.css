@@ -23,6 +23,7 @@ body{
 .mainContent{
     grid-row-start: 2;
     grid-column-start: 2;
+
 }
 
 .sidebarContent{
@@ -54,6 +55,7 @@ body{
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 10% 1fr;
     padding: 20px 10px;
+    gap: 20px;
 }
 
 .projects{
@@ -95,17 +97,14 @@ body{
     background-color: white;
 }
 
-.projects{
-    padding: 10px;
-}
+
 
 /* News flex layout */
 
 .news{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  
 }
 
 .news div{
@@ -187,6 +186,11 @@ body{
 .socialOptions span{
     margin: 0px 20px;
 }
+
+.mainContent h2{
+    margin-bottom: 10px;
+}
+
 
 
 
