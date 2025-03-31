@@ -26,8 +26,7 @@ body{
 }
 
 .sidebarContent{
-    height: 70%;
-    background-color: white;
+    height: fit-content;
 }
 
 .sidebar{
@@ -136,4 +135,7 @@ body{
     background-color: #1992D4;
 }
 
-
+.projectCard{
+    border-left: 10px solid yellow;
+    border-radius: 10px;
+}
