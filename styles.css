@@ -64,7 +64,6 @@ body{
 .projects{
     grid-row-start: 2;
     grid-column: 1;
-    background-color: yellow;
 }
 
 .news{
@@ -129,4 +128,16 @@ body{
 }
 
 /* Styles for main divs */
+
+.mainContent{
+    background-color: #E2E8F0;
+}
+
+.header{
+    background-color: #FFFFFF;
+}
+
+.sidebar{
+    background-color: #1992D4;
+}
 
