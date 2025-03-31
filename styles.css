@@ -107,8 +107,8 @@ body{
   
 }
 
-.news div{
-    height: 200px;
+.news > div{
+    height: fit-content;
     width: 90%;
     background-color: white;
     border-radius: 10px;
@@ -191,7 +191,15 @@ body{
     margin-bottom: 10px;
 }
 
+/* Site news styling */
 
+.newsItem{
+    border-bottom: 1px solid grey;
+}
+
+.siteNews{
+    padding: 10px;
+}
 
 
 
