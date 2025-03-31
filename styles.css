@@ -155,3 +155,20 @@ body{
 
 /* Header styles */
 
+.header div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.searchBar{
+    background-color: #E2E8F0;
+    height: 30px;
+    width: 50%;
+    border-radius: 30px;
+    appearance: none;
+    border-style: none;
+}
+
+
+
