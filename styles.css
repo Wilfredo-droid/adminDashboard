@@ -225,6 +225,19 @@ body{
     font-family: 'Roboto';
 }
 
+.socialOptions span{
+    padding: 10px;
+    background-color: #1992D4;
+    color: white;
+    border-radius: 20px;
+    width: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.profileOptions .socialOptions{
+    gap: 0px;
+}
 
 
 
