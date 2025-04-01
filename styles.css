@@ -254,8 +254,14 @@ i {
 }
 
 .projectIcons{
+    position: absolute;
     display: flex;
-    gap: 3px;
+    gap: 5px;
+    right: 10px;
+}
+
+.projectCard{
+    position: relative;
 }
 
 
