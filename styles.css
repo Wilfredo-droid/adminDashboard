@@ -4,7 +4,7 @@ body{
 
 .pageContainer{
     display: grid;
-    grid-template-rows: 1fr 3.5fr;
+    grid-template-rows: 1fr 4fr;
     grid-template-columns: 1fr 5fr;
     width: 100%;
 }
@@ -244,8 +244,19 @@ i {
     width: fit-content;
 }
 
+.miscHeaderOptions {
+    font-size: 25px;
+}
 
+.projectIcons{
+    height: fit-content;
+    width: fit-content;
+}
 
+.projectIcons{
+    display: flex;
+    gap: 3px;
+}
 
 
 
